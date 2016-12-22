@@ -6,8 +6,8 @@
  * *************************************/
 
 import React from 'react';
-import PureComponent from '../wrapper-components/PureComponent';
-import { sanitizers } from '../../../shared/format/string';
+import PureComponent from '../shared/PureComponent';
+import { sanitizers } from '../shared/string';
 
 class Input extends PureComponent {
     constructor(props) {

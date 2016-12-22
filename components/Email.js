@@ -5,8 +5,8 @@
  * *************************************/
 
 import React from 'react';
-import PureComponent from '../wrapper-components/PureComponent';
-import { validators, sanitizers } from '../../../shared/format/string';
+import PureComponent from '../shared/PureComponent';
+import { validators, sanitizers } from '../shared/string';
 
 class Email extends PureComponent {
     constructor(props) {
